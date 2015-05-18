@@ -1,0 +1,27 @@
+{
+  "name": "color-functions",
+  "version": "1.0.0",
+  "description": "color functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pqx/color-functions.git"
+  },
+  "keywords": [
+    "color",
+    "functions",
+    "utilities"
+  ],
+  "author": "wang zuo <wzuoadjusted@gmail.com> (https://twitter.com/wang_zuo)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pqx/color-functions/issues"
+  },
+  "homepage": "https://github.com/pqx/color-functions#readme",
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
+}
