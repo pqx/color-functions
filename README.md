@@ -4,6 +4,15 @@ color functions
 ``` sh
 npm install color-functions
 ```
+## Usage
+``` javascript
+// import all functions
+var cf = require('color-functions');
+
+// import single function
+var hex2rgb = require('color-functions/lib/hex2rgb');
+```
+
 ## Available functions
 + `hex2rgb`
 + `hsv2hex`
