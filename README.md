@@ -8,11 +8,12 @@ npm install color-functions
 ``` javascript
 // import all functions
 var cf = require('color-functions');
+var hex2rgb = cf.hex2rgb;
 
 // import single function
+// (to reduce bundle script size with browserify or webpack)
 var hex2rgb = require('color-functions/lib/hex2rgb');
 ```
-
 ## Available functions
 + `hex2rgb`
 + `hsv2hex`
