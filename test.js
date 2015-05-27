@@ -5,6 +5,8 @@ describe('color functions', function() {
   it('hex2rgb', function() {
     assert.deepEqual(cf.hex2rgb('3498db'), {r: 52, g: 152, b: 219});
     assert.deepEqual(cf.hex2rgb('#3498db'), {r: 52, g: 152, b: 219});
+    assert.deepEqual(cf.hex2rgb('#aabbcc'), {r: 170, g: 187, b: 204});
+    assert.deepEqual(cf.hex2rgb('#abc'), {r: 170, g: 187, b: 204});
   });
 
   it('hsv2hex', function() {
