@@ -13,7 +13,10 @@
   "keywords": [
     "color",
     "functions",
-    "utilities"
+    "utilities",
+    "parse",
+    "parser",
+    "css"
   ],
   "author": "wang zuo <wzuoadjusted@gmail.com> (https://twitter.com/wang_zuo)",
   "license": "MIT",

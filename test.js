@@ -28,4 +28,8 @@ describe('color functions', function() {
   it('rgba', function() {
     assert.strictEqual(cf.rgba(52, 152, 219, 70), 'rgba(52,152,219,0.7)');
   });
+
+  it('css-color', function() {
+    assert.deepEqual(cf.cssColor('hsl(0, 100%, 50%)'), {r: 255, g: 0, b: 0});
+  });
 });
