@@ -1,7 +1,7 @@
 {
   "name": "color-functions",
-  "version": "1.0.2",
-  "description": "color functions",
+  "version": "1.0.3",
+  "description": "color functions for node and browser",
   "main": "index.js",
   "scripts": {
     "test": "node_modules/tape/bin/tape test.js"
@@ -18,14 +18,13 @@
     "parser",
     "utilities"
   ],
-  "author": "wang zuo <wzuoadjusted@gmail.com> (https://twitter.com/wang_zuo)",
+  "author": "Wang Zuo",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/pqx/color-functions/issues"
   },
   "homepage": "https://github.com/pqx/color-functions#readme",
   "devDependencies": {
-    "mocha": "^2.2.5",
     "tape": "^4.1.0"
   }
 }
