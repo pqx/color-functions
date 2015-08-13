@@ -4,7 +4,7 @@
   "description": "color functions",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha"
+    "test": "node_modules/tape/bin/tape test.js"
   },
   "repository": {
     "type": "git",
@@ -12,11 +12,11 @@
   },
   "keywords": [
     "color",
+    "css",
     "functions",
-    "utilities",
     "parse",
     "parser",
-    "css"
+    "utilities"
   ],
   "author": "wang zuo <wzuoadjusted@gmail.com> (https://twitter.com/wang_zuo)",
   "license": "MIT",
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/pqx/color-functions#readme",
   "devDependencies": {
-    "mocha": "^2.2.5"
+    "mocha": "^2.2.5",
+    "tape": "^4.1.0"
   }
 }
