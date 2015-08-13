@@ -1,6 +1,8 @@
 var cf = require('./index');
 var test = require('tape');
 
+var eps = 1;
+
 test('hex2rgb', function(t) {
   t.plan(4);
   t.deepEqual(cf.hex2rgb('3498db'), {r: 52, g: 152, b: 219});
@@ -32,6 +34,24 @@ test('rgb2hsv', function(t) {
 test('rgba', function(t) {
   t.plan(1);
   t.strictEqual(cf.rgba(52, 152, 219, 70), 'rgba(52,152,219,0.7)');
+});
+
+test('hsv2hsl', function(t) {
+  var hsl = cf.hsv2hsl(204.1, 76.3, 85.9);
+
+  t.plan(3);
+  t.true(Math.abs(hsl.h - 204.1) < eps);
+  t.true(Math.abs(hsl.s - 69.9) < eps);
+  t.true(Math.abs(hsl.l - 53.1) < eps);
+});
+
+test('hsl2hsv', function(t) {
+  var hsv = cf.hsl2hsv(204.1, 69.9, 53.1);
+
+  t.plan(3);
+  t.true(Math.abs(hsv.h - 204.1) < eps);
+  t.true(Math.abs(hsv.s - 76.3) < eps);
+  t.true(Math.abs(hsv.v - 85.9) < eps);
 });
 
 test('css-color', function(t) {
