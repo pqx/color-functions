@@ -15,6 +15,7 @@ var hex2rgb = cf.hex2rgb;
 // import single function
 // (to reduce bundle script size with browserify or webpack)
 var hex2rgb = require('color-functions/lib/hex2rgb');
+var cssColor = require('color-functions/lib/css-color');
 ```
 ### Available functions
 + `hex2rgb`
@@ -26,7 +27,7 @@ var hex2rgb = require('color-functions/lib/hex2rgb');
 + `hsl2hsv`
 + `hsv2hsl`
 + `hsl2rgb`
-+ `cssColor`: `require(color-functions/lib/css-color)` (parse a css [color value](https://developer.mozilla.org/en/docs/Web/CSS/color_value) to rgb format)
++ `cssColor`: parse a valid css [color value](https://developer.mozilla.org/en/docs/Web/CSS/color_value) to rgba format
 
 ### License
 MIT
