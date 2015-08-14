@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/pqx/color-functions#readme",
   "devDependencies": {
+    "codecov.io": "^0.1.5",
     "tape": "^4.1.0"
   }
 }

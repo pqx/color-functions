@@ -1,4 +1,6 @@
-# color-functions [![Build Status](https://travis-ci.org/pqx/color-functions.svg)](https://travis-ci.org/pqx/color-functions)
+# color-functions
+
+[![Build Status](https://travis-ci.org/pqx/color-functions.svg)](https://travis-ci.org/pqx/color-functions)  [![codecov.io](http://codecov.io/github/pqx/color-functions/coverage.svg?branch=master)](http://codecov.io/github/pqx/color-functions?branch=master)
 
 color functions for node and browser (`browserify`)
 
