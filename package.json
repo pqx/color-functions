@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/pqx/color-functions#readme",
   "devDependencies": {
+    "istanbul": "^0.3.17",
     "tape": "^4.1.0"
   }
 }
