@@ -17,7 +17,9 @@ test('hsv2hex', function(t) {
 });
 
 test('hsv2rgb', function(t) {
-  t.plan(1);
+  t.plan(3);
+  t.deepEqual(cf.hsv2rgb(36, 76, 86), {r: 219, g: 153, b: 53});
+  t.deepEqual(cf.hsv2rgb(156, 76, 86), {r: 53, g: 219, b: 153});
   t.deepEqual(cf.hsv2rgb(204, 76, 86), {r: 53, g: 153, b: 219});
 });
 
@@ -27,7 +29,9 @@ test('rgb2hex', function(t) {
 });
 
 test('rgb2hsv', function(t) {
-  t.plan(1);
+  t.plan(3);
+  t.deepEqual(cf.rgb2hsv(219, 152, 52), {h: 36, s: 76, v: 86});
+  t.deepEqual(cf.rgb2hsv(52, 219, 152), {h: 156, s: 76, v: 86});
   t.deepEqual(cf.rgb2hsv(52, 152, 219), {h: 204, s: 76, v: 86});
 });
 
