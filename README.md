@@ -29,6 +29,8 @@ var cssColor = require('color-functions/lib/css-color');
 + `hsl2hsv`
 + `hsv2hsl`
 + `hsl2rgb`
++ `rgba2rgb`
++ `rgba2hex`
 + `cssColor`: parse a valid css [color value](https://developer.mozilla.org/en/docs/Web/CSS/color_value) to rgba format
 
 ### License
