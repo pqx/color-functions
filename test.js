@@ -88,3 +88,13 @@ test('css-color', function(t) {
   t.deepEqual(cf.cssColor('hsla(240, 100%, 50%, 0.05)'), {r: 0, g: 0, b: 255, a: 5});
   t.end();
 });
+
+test('rgba2rgb', function(t) {
+  t.deepEqual(cf.rgba2rgb(50, 100, 200, 70), {r: 111, g: 146, b: 216});
+  t.end();
+});
+
+test('rgba2hex', function(t) {
+  t.strictEqual(cf.rgba2hex(50, 100, 200, 70), '6f92d8');
+  t.end();
+});
